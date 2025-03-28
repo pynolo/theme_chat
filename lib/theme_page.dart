@@ -23,32 +23,27 @@ class _ThemePageState extends State<ThemePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             FileUploadButton(
-              label: 'Upload Image',
-              type: 'jpg',
+              label: 'Document 1',
               onFileSelected: (file) => setState(() => _files.add(file)),
             ),
             const SizedBox(height: 8),
             FileUploadButton(
-              label: 'Upload PDF',
-              type: 'pdf',
+              label: 'Document 2',
               onFileSelected: (file) => setState(() => _files.add(file)),
             ),
             const SizedBox(height: 8),
             FileUploadButton(
-              label: 'Upload Text File',
-              type: 'txt',
+              label: 'Document 3',
               onFileSelected: (file) => setState(() => _files.add(file)),
             ),
             const SizedBox(height: 8),
             FileUploadButton(
-              label: 'Upload Audio',
-              type: 'mp3',
+              label: 'Document 4',
               onFileSelected: (file) => setState(() => _files.add(file)),
             ),
             const SizedBox(height: 8),
             FileUploadButton(
-              label: 'Upload Video',
-              type: 'mp4',
+              label: 'Document 5',
               onFileSelected: (file) => setState(() => _files.add(file)),
             ),
           ],
